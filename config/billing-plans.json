@@ -1,0 +1,85 @@
+{
+  "plans": [
+    {
+      "id": "free",
+      "name": "Free",
+      "monthlyPrice": 0,
+      "annualPrice": null,
+      "monthlyCredits": 50,
+      "selfServe": true
+    },
+    {
+      "id": "starter",
+      "name": "Starter",
+      "monthlyPrice": 9,
+      "annualPrice": 90,
+      "monthlyCredits": 200,
+      "selfServe": true,
+      "polarProductEnv": "POLAR_STARTER_PRODUCT_IDS",
+      "polarPriceEnv": "POLAR_STARTER_PRICE_IDS",
+      "monthlyCheckoutEnv": "VITE_POLAR_STARTER_MONTHLY_CHECKOUT_URL",
+      "annualCheckoutEnv": "VITE_POLAR_STARTER_ANNUAL_CHECKOUT_URL"
+    },
+    {
+      "id": "pro",
+      "name": "Pro",
+      "monthlyPrice": 19,
+      "annualPrice": 190,
+      "monthlyCredits": 500,
+      "selfServe": true,
+      "polarProductEnv": "POLAR_PRO_PRODUCT_IDS",
+      "polarPriceEnv": "POLAR_PRO_PRICE_IDS",
+      "monthlyCheckoutEnv": "VITE_POLAR_PRO_MONTHLY_CHECKOUT_URL",
+      "annualCheckoutEnv": "VITE_POLAR_PRO_ANNUAL_CHECKOUT_URL"
+    },
+    {
+      "id": "pro-plus",
+      "name": "Pro+",
+      "monthlyPrice": 49,
+      "annualPrice": 490,
+      "monthlyCredits": 2000,
+      "selfServe": true,
+      "polarProductEnv": "POLAR_PRO_PLUS_PRODUCT_IDS",
+      "polarPriceEnv": "POLAR_PRO_PLUS_PRICE_IDS",
+      "monthlyCheckoutEnv": "VITE_POLAR_PRO_PLUS_MONTHLY_CHECKOUT_URL",
+      "annualCheckoutEnv": "VITE_POLAR_PRO_PLUS_ANNUAL_CHECKOUT_URL"
+    },
+    {
+      "id": "enterprise",
+      "name": "Enterprise",
+      "monthlyPrice": null,
+      "annualPrice": null,
+      "monthlyCredits": null,
+      "selfServe": false
+    }
+  ],
+  "topUps": [
+    {
+      "id": "boost-100",
+      "name": "Boost 100",
+      "credits": 100,
+      "priceCents": 500,
+      "checkoutEnv": "POLAR_TOPUP_100_CHECKOUT_URL",
+      "productEnv": "POLAR_TOPUP_100_PRODUCT_IDS",
+      "priceEnv": "POLAR_TOPUP_100_PRICE_IDS"
+    },
+    {
+      "id": "boost-300",
+      "name": "Boost 300",
+      "credits": 300,
+      "priceCents": 1200,
+      "checkoutEnv": "POLAR_TOPUP_300_CHECKOUT_URL",
+      "productEnv": "POLAR_TOPUP_300_PRODUCT_IDS",
+      "priceEnv": "POLAR_TOPUP_300_PRICE_IDS"
+    },
+    {
+      "id": "boost-1000",
+      "name": "Boost 1000",
+      "credits": 1000,
+      "priceCents": 3000,
+      "checkoutEnv": "POLAR_TOPUP_1000_CHECKOUT_URL",
+      "productEnv": "POLAR_TOPUP_1000_PRODUCT_IDS",
+      "priceEnv": "POLAR_TOPUP_1000_PRICE_IDS"
+    }
+  ]
+}

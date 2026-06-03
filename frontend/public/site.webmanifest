@@ -1,0 +1,21 @@
+{
+  "name": "iLoveURL",
+  "short_name": "iLoveURL",
+  "description": "Transform URLs into summaries, SEO audits, brand reports, QR codes, short links, and workflow-ready outputs.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#FFFFFF",
+  "theme_color": "#4F46E5",
+  "icons": [
+    {
+      "src": "/icon-180.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

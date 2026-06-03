@@ -1,0 +1,42 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node dist/index.js",
+    "build": "tsc",
+    "dev": "tsx watch src/index.ts",
+    "dev:staging": "set NODE_ENV=staging&&tsx watch src/index.ts",
+    "start:staging": "set NODE_ENV=staging&&node dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@mendable/firecrawl-js": "^4.24.1",
+    "@polar-sh/sdk": "^0.47.1",
+    "@supabase/supabase-js": "^2.105.4",
+    "@types/multer": "^2.1.0",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "mammoth": "^1.12.0",
+    "multer": "^2.1.1",
+    "nanoid": "^5.1.11",
+    "openai": "^6.38.0",
+    "pdf-parse": "^2.4.5",
+    "puppeteer": "^25.0.4",
+    "qrcode": "^1.5.4",
+    "undici": "^7.26.0"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.6",
+    "@types/node": "^25.8.0",
+    "@types/qrcode": "^1.5.6",
+    "ts-node-dev": "^2.0.0",
+    "tsx": "^4.22.1",
+    "typescript": "^6.0.3"
+  }
+}

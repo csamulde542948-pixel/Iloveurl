@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "https://iloveurl-backend-production-a332.up.railway.app/$1"
+    }
+  ]
+}
